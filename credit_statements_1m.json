@@ -534,7 +534,7 @@
           },
           "amounts": {
             "currency": "THB",
-            "gross_thb": 82000,
+            "gross_thb": 295000,
             "vat_thb": 0.0
           },
           "flags": {
@@ -765,7 +765,7 @@
           },
           "amounts": {
             "currency": "THB",
-            "gross_thb": 78000,
+            "gross_thb": 985000,
             "vat_thb": 0.0
           },
           "flags": {
