@@ -2,15 +2,15 @@
   "analytics": {
     "overall": {
       "months": 2,
-      "total_spend_thb": 2084644.73,
-      "total_recurring_thb": 1347214.55,
+      "total_spend_thb": 2075114.93,
+      "total_recurring_thb": 1337684.75,
       "total_nonrecurring_thb": 737430.18
     },
     "monthly": [
       {
         "month": "2025-03",
-        "total_spend_thb": 1864520.77,
-        "recurring_spend_thb": 1338061.91,
+        "total_spend_thb": 1854990.97,
+        "recurring_spend_thb": 1328532.11,
         "nonrecurring_spend_thb": 526458.86
       },
       {
@@ -22,7 +22,7 @@
     ],
     "recurring_by_group": {
       "INSURANCE": 11932.11,
-      "TUITION": 1289529.8,
+      "TUITION": 1280000.0,
       "UTILITIES": 12923.13,
       "OTHER_RECURRING": 22903.69,
       "TELCO": 9925.82
@@ -2371,44 +2371,6 @@
           }
         },
         {
-          "transaction_id": "t-bkk_prep-917782",
-          "transaction_date": "2025-03-27",
-          "posted_date": "2025-03-27",
-          "description": "Bangkok International Prep School",
-          "merchant": {
-            "name": "Bangkok International Prep School",
-            "legal_name": null,
-            "branch": null,
-            "city": "Bangkok",
-            "country": "TH",
-            "mcc": "8211",
-            "category": "Education - International School"
-          },
-          "pos": {
-            "channel": "online",
-            "card_present": false,
-            "entry_mode": "ecom",
-            "terminal_id": "ECOM-BANGKOKI"
-          },
-          "amounts": {
-            "currency": "THB",
-            "gross_thb": 6831.82,
-            "vat_thb": 0.0
-          },
-          "flags": {
-            "installment_plan_id": null,
-            "recurring": false
-          },
-          "reference": "REF-95208888",
-          "derived": {
-            "month": "2025-03",
-            "is_recurring": true,
-            "recurring_group": "TUITION",
-            "high_level_category": "Education",
-            "demo_tag": []
-          }
-        },
-        {
           "transaction_id": "t-bts-474015",
           "transaction_date": "2025-03-27",
           "posted_date": "2025-03-27",
@@ -2861,44 +2823,6 @@
             "is_recurring": false,
             "recurring_group": null,
             "high_level_category": "Other",
-            "demo_tag": []
-          }
-        },
-        {
-          "transaction_id": "t-isb-510916",
-          "transaction_date": "2025-03-30",
-          "posted_date": "2025-03-30",
-          "description": "International School Bangkok",
-          "merchant": {
-            "name": "International School Bangkok",
-            "legal_name": null,
-            "branch": null,
-            "city": "Nonthaburi",
-            "country": "TH",
-            "mcc": "8211",
-            "category": "Education - International School"
-          },
-          "pos": {
-            "channel": "online",
-            "card_present": false,
-            "entry_mode": "ecom",
-            "terminal_id": "ECOM-INTERNAT"
-          },
-          "amounts": {
-            "currency": "THB",
-            "gross_thb": 2697.98,
-            "vat_thb": 0.0
-          },
-          "flags": {
-            "installment_plan_id": null,
-            "recurring": false
-          },
-          "reference": "REF-53069640",
-          "derived": {
-            "month": "2025-03",
-            "is_recurring": true,
-            "recurring_group": "TUITION",
-            "high_level_category": "Education",
             "demo_tag": []
           }
         },

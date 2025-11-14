@@ -1929,37 +1929,6 @@
           "reference": "REF-82516295"
         },
         {
-          "transaction_id": "t-bkk_prep-917782",
-          "transaction_date": "2025-03-27",
-          "posted_date": "2025-03-27",
-          "description": "Bangkok International Prep School",
-          "merchant": {
-            "name": "Bangkok International Prep School",
-            "legal_name": null,
-            "branch": null,
-            "city": "Bangkok",
-            "country": "TH",
-            "mcc": "8211",
-            "category": "Education - International School"
-          },
-          "pos": {
-            "channel": "online",
-            "card_present": false,
-            "entry_mode": "ecom",
-            "terminal_id": "ECOM-BANGKOKI"
-          },
-          "amounts": {
-            "currency": "THB",
-            "gross_thb": 6831.82,
-            "vat_thb": 0.0
-          },
-          "flags": {
-            "installment_plan_id": null,
-            "recurring": false
-          },
-          "reference": "REF-95208888"
-        },
-        {
           "transaction_id": "t-bts-474015",
           "transaction_date": "2025-03-27",
           "posted_date": "2025-03-27",
@@ -2330,37 +2299,6 @@
             "recurring": false
           },
           "reference": "REF-31490456"
-        },
-        {
-          "transaction_id": "t-isb-510916",
-          "transaction_date": "2025-03-30",
-          "posted_date": "2025-03-30",
-          "description": "International School Bangkok",
-          "merchant": {
-            "name": "International School Bangkok",
-            "legal_name": null,
-            "branch": null,
-            "city": "Nonthaburi",
-            "country": "TH",
-            "mcc": "8211",
-            "category": "Education - International School"
-          },
-          "pos": {
-            "channel": "online",
-            "card_present": false,
-            "entry_mode": "ecom",
-            "terminal_id": "ECOM-INTERNAT"
-          },
-          "amounts": {
-            "currency": "THB",
-            "gross_thb": 2697.98,
-            "vat_thb": 0.0
-          },
-          "flags": {
-            "installment_plan_id": null,
-            "recurring": false
-          },
-          "reference": "REF-53069640"
         },
         {
           "transaction_id": "t-lotus-187116",
