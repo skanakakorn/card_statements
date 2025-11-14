@@ -1,0 +1,4314 @@
+{
+  "analytics": {
+    "overall": {
+      "months": 2,
+      "total_spend_thb": 2084644.73,
+      "total_recurring_thb": 1347214.55,
+      "total_nonrecurring_thb": 737430.18
+    },
+    "monthly": [
+      {
+        "month": "2025-03",
+        "total_spend_thb": 1864520.77,
+        "recurring_spend_thb": 1338061.91,
+        "nonrecurring_spend_thb": 526458.86
+      },
+      {
+        "month": "2025-04",
+        "total_spend_thb": 220123.96,
+        "recurring_spend_thb": 9152.64,
+        "nonrecurring_spend_thb": 210971.32
+      }
+    ],
+    "recurring_by_group": {
+      "INSURANCE": 11932.11,
+      "TUITION": 1289529.8,
+      "UTILITIES": 12923.13,
+      "OTHER_RECURRING": 22903.69,
+      "TELCO": 9925.82
+    }
+  },
+  "statements": [
+    {
+      "statement_id": "STMT-20250412-AX01",
+      "issuer": {
+        "name": "CardX Company Limited (SCBX)",
+        "brand": "CardX",
+        "customer_service": {
+          "phone_th": "1468",
+          "intl": "+66-2-777-7777"
+        }
+      },
+      "product": {
+        "name": "CardX Platinum Visa",
+        "network": "VISA",
+        "card_type": "credit",
+        "last4": "1234"
+      },
+      "cardholder": {
+        "name": "CHANIN S.",
+        "billing_address": "88 Sukhumvit Rd, Khlong Toei, Bangkok 10110 TH"
+      },
+      "account": {
+        "number_masked": "4567-89XX-XXXX-1234",
+        "credit_limit_thb": 300000,
+        "available_credit_thb": 0.0,
+        "cash_limit_thb": 60000
+      },
+      "statement_period": {
+        "from": "2025-03-15",
+        "to": "2025-04-12",
+        "payment_due_date": "2025-05-02",
+        "timezone": "Asia/Bangkok"
+      },
+      "balances": {
+        "previous_balance_thb": 572381.99,
+        "payments_received_thb": 572381.99,
+        "purchases_thb": 964644.73,
+        "fees_thb": 0.0,
+        "interest_thb": 0.0,
+        "new_balance_thb": 964644.73,
+        "minimum_due_thb": 96464.47
+      },
+      "rates_and_fees": {
+        "apr_purchase_percent": 16,
+        "apr_cash_advance_percent": 20,
+        "late_fee_thb": 250,
+        "foreign_transaction_fee_percent": 2.5
+      },
+      "rewards": {
+        "program": "POINTX",
+        "points_earned": 96464,
+        "points_redeemed": 0,
+        "points_balance": 230041
+      },
+      "installment_plans": [
+        {
+          "installment_plan_id": "INS-LV-20250120-001",
+          "merchant": "Louis Vuitton (Iconsiam)",
+          "principal_total_thb": 120000,
+          "tenor_months": 10,
+          "rate_percent": 0,
+          "installment_amount_thb": 12000.0,
+          "billed_installments": 3,
+          "remaining_installments": 7,
+          "next_billing_date": "2025-04-19"
+        },
+        {
+          "installment_plan_id": "INS-MAC-20250125-002",
+          "merchant": "Apple Store Online TH",
+          "principal_total_thb": 60000,
+          "tenor_months": 6,
+          "rate_percent": 0,
+          "installment_amount_thb": 10000.0,
+          "billed_installments": 3,
+          "remaining_installments": 3,
+          "next_billing_date": "2025-04-24"
+        }
+      ],
+      "transactions": [
+        {
+          "transaction_id": "t-central-156806",
+          "transaction_date": "2025-03-15",
+          "posted_date": "2025-03-15",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-CENTRALD"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 7253.17,
+            "vat_thb": 474.51
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-76496658",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-grab-935969",
+          "transaction_date": "2025-03-15",
+          "posted_date": "2025-03-15",
+          "description": "Grab (Thailand)",
+          "merchant": {
+            "name": "Grab (Thailand)",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-GRAB(THA"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 129.67,
+            "vat_thb": 8.48
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-40317691",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-893049",
+          "transaction_date": "2025-03-16",
+          "posted_date": "2025-03-16",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-CENTRALD"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 6111.63,
+            "vat_thb": 399.83
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-52964641",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-starbucks-393980",
+          "transaction_date": "2025-03-16",
+          "posted_date": "2025-03-16",
+          "description": "Starbucks Coffee",
+          "merchant": {
+            "name": "Starbucks Coffee",
+            "legal_name": "Starbucks Coffee (Thailand) Co., Ltd.",
+            "branch": "Sukhumvit 33",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID838059"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 166.14,
+            "vat_thb": 10.87
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-64077387",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-starbucks-784746",
+          "transaction_date": "2025-03-16",
+          "posted_date": "2025-03-16",
+          "description": "Starbucks Coffee",
+          "merchant": {
+            "name": "Starbucks Coffee",
+            "legal_name": "Starbucks Coffee (Thailand) Co., Ltd.",
+            "branch": "Sukhumvit 33",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID264839"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 6022.24,
+            "vat_thb": 393.98
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-74388572",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-uniqlo-262096",
+          "transaction_date": "2025-03-16",
+          "posted_date": "2025-03-16",
+          "description": "Uniqlo",
+          "merchant": {
+            "name": "Uniqlo",
+            "legal_name": "Uniqlo (Thailand) Co., Ltd.",
+            "branch": "EmQuartier",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5651",
+            "category": "Clothing"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID186946"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 6961.49,
+            "vat_thb": 455.42
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-93032614",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-694177",
+          "transaction_date": "2025-03-17",
+          "posted_date": "2025-03-17",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-CENTRALD"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 14112.33,
+            "vat_thb": 923.24
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-29862294",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-grab-785289",
+          "transaction_date": "2025-03-17",
+          "posted_date": "2025-03-17",
+          "description": "Grab (Thailand)",
+          "merchant": {
+            "name": "Grab (Thailand)",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-GRAB(THA"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 449.87,
+            "vat_thb": 29.43
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-85603896",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lotus-821016",
+          "transaction_date": "2025-03-17",
+          "posted_date": "2025-03-17",
+          "description": "Lotus's",
+          "merchant": {
+            "name": "Lotus's",
+            "legal_name": "Ek-Chai Distribution System Co., Ltd.",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID543777"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 6771.25,
+            "vat_thb": 442.98
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-94292621",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lv-497934",
+          "transaction_date": "2025-03-17",
+          "posted_date": "2025-03-17",
+          "description": "Louis Vuitton",
+          "merchant": {
+            "name": "Louis Vuitton",
+            "legal_name": "Louis Vuitton (Thailand) Co., Ltd.",
+            "branch": "Iconsiam",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5944",
+            "category": "Luxury Goods"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID552809"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 21778.27,
+            "vat_thb": 1424.75
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-20306735",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Luxury",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ptt-772656",
+          "transaction_date": "2025-03-17",
+          "posted_date": "2025-03-17",
+          "description": "PTT Station",
+          "merchant": {
+            "name": "PTT Station",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5541",
+            "category": "Fuel"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID510637"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 1577.11,
+            "vat_thb": 103.18
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-42777624",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-scb_life-438752",
+          "transaction_date": "2025-03-17",
+          "posted_date": "2025-03-17",
+          "description": "SCB Life Insurance",
+          "merchant": {
+            "name": "SCB Life Insurance",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "6300",
+            "category": "Insurance"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-SCBLIFEI"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3573.29,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-28333668",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "INSURANCE",
+            "high_level_category": "Insurance",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-thai_air-418450",
+          "transaction_date": "2025-03-17",
+          "posted_date": "2025-03-17",
+          "description": "Thai Airways - BKK\u2192NRT",
+          "merchant": {
+            "name": "Thai Airways",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4511",
+            "category": "Airline"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-THAIAIRW"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 35600,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-17197218",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Travel",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-uniqlo-928744",
+          "transaction_date": "2025-03-17",
+          "posted_date": "2025-03-17",
+          "description": "Uniqlo",
+          "merchant": {
+            "name": "Uniqlo",
+            "legal_name": "Uniqlo (Thailand) Co., Ltd.",
+            "branch": "EmQuartier",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5651",
+            "category": "Clothing"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID764667"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4351.85,
+            "vat_thb": 284.7
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-81635042",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bkk_prep-185073",
+          "transaction_date": "2025-03-18",
+          "posted_date": "2025-03-18",
+          "description": "Bangkok International Prep School - Tuition Child1",
+          "merchant": {
+            "name": "Bangkok International Prep School",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "8211",
+            "category": "Education - International School"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID843600"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 295000,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": true
+          },
+          "reference": "REF-48582766",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "TUITION",
+            "high_level_category": "Education",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lotus-792301",
+          "transaction_date": "2025-03-18",
+          "posted_date": "2025-03-18",
+          "description": "Lotus's",
+          "merchant": {
+            "name": "Lotus's",
+            "legal_name": "Ek-Chai Distribution System Co., Ltd.",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID749160"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3356.35,
+            "vat_thb": 219.57
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-22804660",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-narita_df-740116",
+          "transaction_date": "2025-03-18",
+          "posted_date": "2025-03-18",
+          "description": "Narita Duty Free - Shopping",
+          "merchant": {
+            "name": "Narita Duty Free",
+            "legal_name": null,
+            "branch": "Narita Airport",
+            "city": "Narita",
+            "country": "JP",
+            "mcc": "5309",
+            "category": "Duty Free Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID276274"
+          },
+          "amounts": {
+            "currency": "JPY",
+            "gross_jpy": 82000,
+            "fx": {
+              "converted_currency": "THB",
+              "rate": 0.28,
+              "converted_amount_thb": 22960.0,
+              "source": "Network"
+            },
+            "gross_thb": 22960.0,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-53448476",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-apple_online-393688",
+          "transaction_date": "2025-03-19",
+          "posted_date": "2025-03-19",
+          "description": "Apple Store Online TH",
+          "merchant": {
+            "name": "Apple Store Online TH",
+            "legal_name": "Apple South Asia (Thailand) Limited",
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5732",
+            "category": "Electronics"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-APPLESTO"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 6686.95,
+            "vat_thb": 437.46
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-41945876",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bts-824888",
+          "transaction_date": "2025-03-19",
+          "posted_date": "2025-03-19",
+          "description": "BTS SkyTrain",
+          "merchant": {
+            "name": "BTS SkyTrain",
+            "legal_name": null,
+            "branch": "Asok Station",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4131",
+            "category": "Commuter Transport"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID120554"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 457.14,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-62990320",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-grab-582231",
+          "transaction_date": "2025-03-19",
+          "posted_date": "2025-03-19",
+          "description": "Grab (Thailand)",
+          "merchant": {
+            "name": "Grab (Thailand)",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-GRAB(THA"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 6452.55,
+            "vat_thb": 422.13
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-95227550",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-hotel_tokyo-870470",
+          "transaction_date": "2025-03-19",
+          "posted_date": "2025-03-19",
+          "description": "Hotel Metropolitan Tokyo - Room Charge",
+          "merchant": {
+            "name": "Hotel Metropolitan Tokyo",
+            "legal_name": null,
+            "branch": "Ikebukuro",
+            "city": "Tokyo",
+            "country": "JP",
+            "mcc": "7011",
+            "category": "Hotel"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID599640"
+          },
+          "amounts": {
+            "currency": "JPY",
+            "gross_jpy": 185000,
+            "fx": {
+              "converted_currency": "THB",
+              "rate": 0.28,
+              "converted_amount_thb": 51800.0,
+              "source": "Network"
+            },
+            "gross_thb": 51800.0,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-17598652",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Travel",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-isb-130522",
+          "transaction_date": "2025-03-19",
+          "posted_date": "2025-03-19",
+          "description": "International School Bangkok - Tuition Child2",
+          "merchant": {
+            "name": "International School Bangkok",
+            "legal_name": null,
+            "branch": null,
+            "city": "Nonthaburi",
+            "country": "TH",
+            "mcc": "8211",
+            "category": "Education - International School"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-INTERNAT"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 985000,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": true
+          },
+          "reference": "REF-98188881",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "TUITION",
+            "high_level_category": "Education",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lotus-769536",
+          "transaction_date": "2025-03-19",
+          "posted_date": "2025-03-19",
+          "description": "Lotus's",
+          "merchant": {
+            "name": "Lotus's",
+            "legal_name": "Ek-Chai Distribution System Co., Ltd.",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID104635"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 7601.57,
+            "vat_thb": 497.3
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-88733384",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-mea-403423",
+          "transaction_date": "2025-03-19",
+          "posted_date": "2025-03-19",
+          "description": "MEA Electricity",
+          "merchant": {
+            "name": "MEA Electricity",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4900",
+            "category": "Utilities - Electricity"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-MEAELECT"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 2149.39,
+            "vat_thb": 140.61
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-27776624",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "UTILITIES",
+            "high_level_category": "Bills",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-cafe_amz-802514",
+          "transaction_date": "2025-03-20",
+          "posted_date": "2025-03-20",
+          "description": "Cafe Amazon",
+          "merchant": {
+            "name": "Cafe Amazon",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Office Tower",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID411803"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 201.47,
+            "vat_thb": 13.18
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-25209850",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-emporium-848510",
+          "transaction_date": "2025-03-20",
+          "posted_date": "2025-03-20",
+          "description": "Emporium",
+          "merchant": {
+            "name": "Emporium",
+            "legal_name": "The Emporium Group",
+            "branch": "Sukhumvit 24",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID738082"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4595.02,
+            "vat_thb": 300.61
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-88224779",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-grab-317907",
+          "transaction_date": "2025-03-20",
+          "posted_date": "2025-03-20",
+          "description": "Grab (Thailand)",
+          "merchant": {
+            "name": "Grab (Thailand)",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-GRAB(THA"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 173.37,
+            "vat_thb": 11.34
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-97519208",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lv-664178",
+          "transaction_date": "2025-03-20",
+          "posted_date": "2025-03-20",
+          "description": "Louis Vuitton (Iconsiam) - 0% Installment (3/10)",
+          "merchant": {
+            "name": "Louis Vuitton",
+            "legal_name": "Louis Vuitton (Thailand) Co., Ltd.",
+            "branch": "Iconsiam",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5944",
+            "category": "Luxury Goods"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID486855"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 12000.0,
+            "vat_thb": 785.05
+          },
+          "flags": {
+            "installment_plan_id": "INS-LV-20250120-001",
+            "recurring": true
+          },
+          "reference": "REF-37987163",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "OTHER_RECURRING",
+            "high_level_category": "Luxury",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-gaggan-136718",
+          "transaction_date": "2025-03-21",
+          "posted_date": "2025-03-21",
+          "description": "Gaggan Anand - Dinner for 2",
+          "merchant": {
+            "name": "Gaggan Anand",
+            "legal_name": "Gaggan Anand Co., Ltd.",
+            "branch": "Sukhumvit 31",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5812",
+            "category": "Fine Dining"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID509244"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 8500,
+            "vat_thb": 556.07
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-81271096",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lineman-298440",
+          "transaction_date": "2025-03-21",
+          "posted_date": "2025-03-21",
+          "description": "LINE MAN",
+          "merchant": {
+            "name": "LINE MAN",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-LINEMAN"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 382.33,
+            "vat_thb": 25.01
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": true
+          },
+          "reference": "REF-29025792",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "OTHER_RECURRING",
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-truemove-729531",
+          "transaction_date": "2025-03-21",
+          "posted_date": "2025-03-21",
+          "description": "TrueMove H - Postpaid Bill",
+          "merchant": {
+            "name": "TrueMove H",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4814",
+            "category": "Telecom"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-TRUEMOVE"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 1499,
+            "vat_thb": 98.07
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": true
+          },
+          "reference": "REF-89488080",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "TELCO",
+            "high_level_category": "Bills",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ais_fibre-121579",
+          "transaction_date": "2025-03-22",
+          "posted_date": "2025-03-22",
+          "description": "AIS Fibre - Home Internet",
+          "merchant": {
+            "name": "AIS Fibre",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4814",
+            "category": "Telecom"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-AISFIBRE"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 899,
+            "vat_thb": 58.81
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": true
+          },
+          "reference": "REF-66179262",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "TELCO",
+            "high_level_category": "Bills",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-296437",
+          "transaction_date": "2025-03-22",
+          "posted_date": "2025-03-22",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-CENTRALD"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 5905.06,
+            "vat_thb": 386.31
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-11109576",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-grab-378601",
+          "transaction_date": "2025-03-22",
+          "posted_date": "2025-03-22",
+          "description": "Grab (Thailand)",
+          "merchant": {
+            "name": "Grab (Thailand)",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-GRAB(THA"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 147.16,
+            "vat_thb": 9.63
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-17079465",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-jal-108418",
+          "transaction_date": "2025-03-22",
+          "posted_date": "2025-03-22",
+          "description": "Japan Airlines",
+          "merchant": {
+            "name": "Japan Airlines",
+            "legal_name": null,
+            "branch": null,
+            "city": "Tokyo",
+            "country": "JP",
+            "mcc": "4511",
+            "category": "Airline"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-JAPANAIR"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 7714.02,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-24150184",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Travel",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lineman-326551",
+          "transaction_date": "2025-03-22",
+          "posted_date": "2025-03-22",
+          "description": "LINE MAN",
+          "merchant": {
+            "name": "LINE MAN",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-LINEMAN"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 185.17,
+            "vat_thb": 12.11
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-55249554",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-starbucks-151830",
+          "transaction_date": "2025-03-22",
+          "posted_date": "2025-03-22",
+          "description": "Starbucks Coffee",
+          "merchant": {
+            "name": "Starbucks Coffee",
+            "legal_name": "Starbucks Coffee (Thailand) Co., Ltd.",
+            "branch": "Sukhumvit 33",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID157861"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 131.34,
+            "vat_thb": 8.59
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-97382173",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-hotel_tokyo-774842",
+          "transaction_date": "2025-03-23",
+          "posted_date": "2025-03-23",
+          "description": "Hotel Metropolitan Tokyo",
+          "merchant": {
+            "name": "Hotel Metropolitan Tokyo",
+            "legal_name": null,
+            "branch": "Ikebukuro",
+            "city": "Tokyo",
+            "country": "JP",
+            "mcc": "7011",
+            "category": "Hotel"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID436407"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 2088.93,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-70363889",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Travel",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-jal-969087",
+          "transaction_date": "2025-03-23",
+          "posted_date": "2025-03-23",
+          "description": "Japan Airlines - NRT\u2192BKK",
+          "merchant": {
+            "name": "Japan Airlines",
+            "legal_name": null,
+            "branch": null,
+            "city": "Tokyo",
+            "country": "JP",
+            "mcc": "4511",
+            "category": "Airline"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-JAPANAIR"
+          },
+          "amounts": {
+            "currency": "JPY",
+            "gross_jpy": 128000,
+            "fx": {
+              "converted_currency": "THB",
+              "rate": 0.28,
+              "converted_amount_thb": 35840.0,
+              "source": "Network"
+            },
+            "gross_thb": 35840.0,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-91521991",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Travel",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lotus-943222",
+          "transaction_date": "2025-03-23",
+          "posted_date": "2025-03-23",
+          "description": "Lotus's",
+          "merchant": {
+            "name": "Lotus's",
+            "legal_name": "Ek-Chai Distribution System Co., Ltd.",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID180508"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 1240.62,
+            "vat_thb": 81.16
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-86171116",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-mea-617512",
+          "transaction_date": "2025-03-23",
+          "posted_date": "2025-03-23",
+          "description": "MEA Electricity - Home",
+          "merchant": {
+            "name": "MEA Electricity",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4900",
+            "category": "Utilities - Electricity"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-MEAELECT"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3200,
+            "vat_thb": 209.35
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-23152893",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "UTILITIES",
+            "high_level_category": "Bills",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-mwa-329149",
+          "transaction_date": "2025-03-23",
+          "posted_date": "2025-03-23",
+          "description": "MWA Waterworks",
+          "merchant": {
+            "name": "MWA Waterworks",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4900",
+            "category": "Utilities - Water"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-MWAWATER"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 6723.74,
+            "vat_thb": 439.87
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-77614548",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "UTILITIES",
+            "high_level_category": "Bills",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-starbucks-221784",
+          "transaction_date": "2025-03-23",
+          "posted_date": "2025-03-23",
+          "description": "Starbucks Coffee",
+          "merchant": {
+            "name": "Starbucks Coffee",
+            "legal_name": "Starbucks Coffee (Thailand) Co., Ltd.",
+            "branch": "Sukhumvit 33",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID271593"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4251.81,
+            "vat_thb": 278.16
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-72607448",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-mwa-132709",
+          "transaction_date": "2025-03-24",
+          "posted_date": "2025-03-24",
+          "description": "MWA Waterworks - Home",
+          "merchant": {
+            "name": "MWA Waterworks",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4900",
+            "category": "Utilities - Water"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-MWAWATER"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 850,
+            "vat_thb": 55.61
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-89487873",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "UTILITIES",
+            "high_level_category": "Bills",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ptt-272749",
+          "transaction_date": "2025-03-24",
+          "posted_date": "2025-03-24",
+          "description": "PTT Station",
+          "merchant": {
+            "name": "PTT Station",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5541",
+            "category": "Fuel"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID947059"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 5176.51,
+            "vat_thb": 338.65
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-92523986",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ptt-927822",
+          "transaction_date": "2025-03-24",
+          "posted_date": "2025-03-24",
+          "description": "PTT Station",
+          "merchant": {
+            "name": "PTT Station",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5541",
+            "category": "Fuel"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID718382"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 1235.11,
+            "vat_thb": 80.8
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-62974130",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-scb_life-216256",
+          "transaction_date": "2025-03-24",
+          "posted_date": "2025-03-24",
+          "description": "SCB Life Insurance - Premium",
+          "merchant": {
+            "name": "SCB Life Insurance",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "6300",
+            "category": "Insurance"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-SCBLIFEI"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4500,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": true
+          },
+          "reference": "REF-57411907",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "INSURANCE",
+            "high_level_category": "Insurance",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-7eleven-391938",
+          "transaction_date": "2025-03-25",
+          "posted_date": "2025-03-25",
+          "description": "7-Eleven",
+          "merchant": {
+            "name": "7-Eleven",
+            "legal_name": "CP ALL PCL",
+            "branch": "Sukhumvit Soi 24",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Convenience Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID674515"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 183.51,
+            "vat_thb": 12.01
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-29301062",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-7eleven-544668",
+          "transaction_date": "2025-03-25",
+          "posted_date": "2025-03-25",
+          "description": "7-Eleven",
+          "merchant": {
+            "name": "7-Eleven",
+            "legal_name": "CP ALL PCL",
+            "branch": "Sukhumvit Soi 24",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Convenience Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID646046"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 261.74,
+            "vat_thb": 17.12
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": true
+          },
+          "reference": "REF-18314364",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "OTHER_RECURRING",
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-apple_online-481508",
+          "transaction_date": "2025-03-25",
+          "posted_date": "2025-03-25",
+          "description": "Apple Store Online TH - 0% Installment (3/6)",
+          "merchant": {
+            "name": "Apple Store Online TH",
+            "legal_name": "Apple South Asia (Thailand) Limited",
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5732",
+            "category": "Electronics"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-APPLESTO"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 10000.0,
+            "vat_thb": 654.21
+          },
+          "flags": {
+            "installment_plan_id": "INS-MAC-20250125-002",
+            "recurring": true
+          },
+          "reference": "REF-67826033",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "OTHER_RECURRING",
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-cafe_amz-553244",
+          "transaction_date": "2025-03-25",
+          "posted_date": "2025-03-25",
+          "description": "Cafe Amazon",
+          "merchant": {
+            "name": "Cafe Amazon",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Office Tower",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID577314"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 112.71,
+            "vat_thb": 7.37
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-17480967",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-dior-231104",
+          "transaction_date": "2025-03-25",
+          "posted_date": "2025-03-25",
+          "description": "Dior",
+          "merchant": {
+            "name": "Dior",
+            "legal_name": "Christian Dior (Thailand) Ltd.",
+            "branch": "EmQuartier",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5944",
+            "category": "Luxury Goods"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID614191"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 71325.88,
+            "vat_thb": 4666.18
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-87623517",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Luxury",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-uniqlo-503352",
+          "transaction_date": "2025-03-25",
+          "posted_date": "2025-03-25",
+          "description": "Uniqlo",
+          "merchant": {
+            "name": "Uniqlo",
+            "legal_name": "Uniqlo (Thailand) Co., Ltd.",
+            "branch": "EmQuartier",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5651",
+            "category": "Clothing"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID298411"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3592.19,
+            "vat_thb": 235.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-59092516",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-782957",
+          "transaction_date": "2025-03-26",
+          "posted_date": "2025-03-26",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID334791"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 7673.95,
+            "vat_thb": 502.03
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-68988164",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ledu-329256",
+          "transaction_date": "2025-03-26",
+          "posted_date": "2025-03-26",
+          "description": "Le Du - Dinner for 2",
+          "merchant": {
+            "name": "Le Du",
+            "legal_name": "Le Du Co., Ltd.",
+            "branch": "Silom",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5812",
+            "category": "Fine Dining"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID130967"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 15000,
+            "vat_thb": 981.31
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-73322130",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ptt-760129",
+          "transaction_date": "2025-03-26",
+          "posted_date": "2025-03-26",
+          "description": "PTT Station",
+          "merchant": {
+            "name": "PTT Station",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5541",
+            "category": "Fuel"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID795902"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3727.4,
+            "vat_thb": 243.85
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-66881365",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-thai_cc-117062",
+          "transaction_date": "2025-03-26",
+          "posted_date": "2025-03-26",
+          "description": "Thai Country Club - Green Fee",
+          "merchant": {
+            "name": "Thai Country Club",
+            "legal_name": null,
+            "branch": null,
+            "city": "Chachoengsao",
+            "country": "TH",
+            "mcc": "7992",
+            "category": "Golf Course"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID136679"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4800,
+            "vat_thb": 314.02
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-43209334",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-villa-505371",
+          "transaction_date": "2025-03-26",
+          "posted_date": "2025-03-26",
+          "description": "Villa Market",
+          "merchant": {
+            "name": "Villa Market",
+            "legal_name": "Villa Market JP Co., Ltd.",
+            "branch": "Thonglor 15",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID867332"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4443.76,
+            "vat_thb": 290.71
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-95461930",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-alpine-627114",
+          "transaction_date": "2025-03-27",
+          "posted_date": "2025-03-27",
+          "description": "Alpine Golf Club - Green Fee",
+          "merchant": {
+            "name": "Alpine Golf Club",
+            "legal_name": null,
+            "branch": null,
+            "city": "Pathum Thani",
+            "country": "TH",
+            "mcc": "7992",
+            "category": "Golf Course"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID575552"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3500,
+            "vat_thb": 228.97
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-82516295",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bkk_prep-917782",
+          "transaction_date": "2025-03-27",
+          "posted_date": "2025-03-27",
+          "description": "Bangkok International Prep School",
+          "merchant": {
+            "name": "Bangkok International Prep School",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "8211",
+            "category": "Education - International School"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-BANGKOKI"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 6831.82,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-95208888",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "TUITION",
+            "high_level_category": "Education",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bts-474015",
+          "transaction_date": "2025-03-27",
+          "posted_date": "2025-03-27",
+          "description": "BTS SkyTrain",
+          "merchant": {
+            "name": "BTS SkyTrain",
+            "legal_name": null,
+            "branch": "Asok Station",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4131",
+            "category": "Commuter Transport"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID534586"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 256.0,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-58536102",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lazada-836705",
+          "transaction_date": "2025-03-27",
+          "posted_date": "2025-03-27",
+          "description": "Lazada Thailand",
+          "merchant": {
+            "name": "Lazada Thailand",
+            "legal_name": "Lazada Ltd.",
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5964",
+            "category": "Online Shopping"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-LAZADATH"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 5563.26,
+            "vat_thb": 363.95
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-29264439",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-samitivej-728779",
+          "transaction_date": "2025-03-27",
+          "posted_date": "2025-03-27",
+          "description": "Samitivej Sukhumvit Hospital",
+          "merchant": {
+            "name": "Samitivej Sukhumvit Hospital",
+            "legal_name": null,
+            "branch": "Sukhumvit 49",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "8062",
+            "category": "Medical Services"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID526813"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 7174.68,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-35297619",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-thai_air-144096",
+          "transaction_date": "2025-03-27",
+          "posted_date": "2025-03-27",
+          "description": "Thai Airways",
+          "merchant": {
+            "name": "Thai Airways",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4511",
+            "category": "Airline"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-THAIAIRW"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 7277.68,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-65252894",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Travel",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bts-630173",
+          "transaction_date": "2025-03-28",
+          "posted_date": "2025-03-28",
+          "description": "BTS SkyTrain",
+          "merchant": {
+            "name": "BTS SkyTrain",
+            "legal_name": null,
+            "branch": "Asok Station",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4131",
+            "category": "Commuter Transport"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID579719"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 353.15,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-68946818",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-dior-246488",
+          "transaction_date": "2025-03-28",
+          "posted_date": "2025-03-28",
+          "description": "Dior",
+          "merchant": {
+            "name": "Dior",
+            "legal_name": "Christian Dior (Thailand) Ltd.",
+            "branch": "EmQuartier",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5944",
+            "category": "Luxury Goods"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID178303"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 68765.81,
+            "vat_thb": 4498.7
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-97381632",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Luxury",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lotus-770805",
+          "transaction_date": "2025-03-28",
+          "posted_date": "2025-03-28",
+          "description": "Lotus's",
+          "merchant": {
+            "name": "Lotus's",
+            "legal_name": "Ek-Chai Distribution System Co., Ltd.",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID239412"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3054.04,
+            "vat_thb": 199.8
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-88972636",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ais_fibre-468099",
+          "transaction_date": "2025-03-29",
+          "posted_date": "2025-03-29",
+          "description": "AIS Fibre",
+          "merchant": {
+            "name": "AIS Fibre",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4814",
+            "category": "Telecom"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-AISFIBRE"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 2493.62,
+            "vat_thb": 163.13
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-66696469",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "TELCO",
+            "high_level_category": "Bills",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-144880",
+          "transaction_date": "2025-03-29",
+          "posted_date": "2025-03-29",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID570378"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 7954.16,
+            "vat_thb": 520.37
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-79573197",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-963348",
+          "transaction_date": "2025-03-29",
+          "posted_date": "2025-03-29",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-CENTRALD"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3178.11,
+            "vat_thb": 207.91
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-38285914",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-grab-397878",
+          "transaction_date": "2025-03-29",
+          "posted_date": "2025-03-29",
+          "description": "Grab (Thailand)",
+          "merchant": {
+            "name": "Grab (Thailand)",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-GRAB(THA"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 134.65,
+            "vat_thb": 8.81
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-68217034",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-145679",
+          "transaction_date": "2025-03-30",
+          "posted_date": "2025-03-30",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-CENTRALD"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 2061.14,
+            "vat_thb": 134.84
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-31490456",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-isb-510916",
+          "transaction_date": "2025-03-30",
+          "posted_date": "2025-03-30",
+          "description": "International School Bangkok",
+          "merchant": {
+            "name": "International School Bangkok",
+            "legal_name": null,
+            "branch": null,
+            "city": "Nonthaburi",
+            "country": "TH",
+            "mcc": "8211",
+            "category": "Education - International School"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-INTERNAT"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 2697.98,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-53069640",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": true,
+            "recurring_group": "TUITION",
+            "high_level_category": "Education",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lotus-187116",
+          "transaction_date": "2025-03-30",
+          "posted_date": "2025-03-30",
+          "description": "Lotus's",
+          "merchant": {
+            "name": "Lotus's",
+            "legal_name": "Ek-Chai Distribution System Co., Ltd.",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID737069"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 2843.76,
+            "vat_thb": 186.04
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-54249789",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-starbucks-300402",
+          "transaction_date": "2025-03-30",
+          "posted_date": "2025-03-30",
+          "description": "Starbucks Coffee",
+          "merchant": {
+            "name": "Starbucks Coffee",
+            "legal_name": "Starbucks Coffee (Thailand) Co., Ltd.",
+            "branch": "Sukhumvit 33",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID876450"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 204.49,
+            "vat_thb": 13.38
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-31498814",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bts-673042",
+          "transaction_date": "2025-03-31",
+          "posted_date": "2025-03-31",
+          "description": "BTS SkyTrain",
+          "merchant": {
+            "name": "BTS SkyTrain",
+            "legal_name": null,
+            "branch": "Asok Station",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4131",
+            "category": "Commuter Transport"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID811785"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 291.68,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-64011545",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bumrungrad-267887",
+          "transaction_date": "2025-03-31",
+          "posted_date": "2025-03-31",
+          "description": "Bumrungrad International Hospital",
+          "merchant": {
+            "name": "Bumrungrad International Hospital",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "8062",
+            "category": "Medical Services"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID920370"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4981.49,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-62787596",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-270430",
+          "transaction_date": "2025-03-31",
+          "posted_date": "2025-03-31",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-CENTRALD"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 1274.9,
+            "vat_thb": 83.4
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-28168638",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-421159",
+          "transaction_date": "2025-03-31",
+          "posted_date": "2025-03-31",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID705550"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3145.08,
+            "vat_thb": 205.75
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-52551259",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-thai_cc-840906",
+          "transaction_date": "2025-03-31",
+          "posted_date": "2025-03-31",
+          "description": "Thai Country Club",
+          "merchant": {
+            "name": "Thai Country Club",
+            "legal_name": null,
+            "branch": null,
+            "city": "Chachoengsao",
+            "country": "TH",
+            "mcc": "7992",
+            "category": "Golf Course"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID819725"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 5600.21,
+            "vat_thb": 366.37
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-24244562",
+          "derived": {
+            "month": "2025-03",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lineman-321240",
+          "transaction_date": "2025-04-01",
+          "posted_date": "2025-04-01",
+          "description": "LINE MAN",
+          "merchant": {
+            "name": "LINE MAN",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-LINEMAN"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4595.3,
+            "vat_thb": 300.63
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-94272030",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ais_fibre-941281",
+          "transaction_date": "2025-04-02",
+          "posted_date": "2025-04-02",
+          "description": "AIS Fibre",
+          "merchant": {
+            "name": "AIS Fibre",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4814",
+            "category": "Telecom"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-AISFIBRE"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 5034.2,
+            "vat_thb": 329.34
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-77945596",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": true,
+            "recurring_group": "TELCO",
+            "high_level_category": "Bills",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-909309",
+          "transaction_date": "2025-04-02",
+          "posted_date": "2025-04-02",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID212749"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4200.45,
+            "vat_thb": 274.8
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-62308186",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-grab-355974",
+          "transaction_date": "2025-04-02",
+          "posted_date": "2025-04-02",
+          "description": "Grab (Thailand)",
+          "merchant": {
+            "name": "Grab (Thailand)",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-GRAB(THA"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 404.66,
+            "vat_thb": 26.47
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-11865581",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-mts-739193",
+          "transaction_date": "2025-04-02",
+          "posted_date": "2025-04-02",
+          "description": "MTS Gold - Gold Bar",
+          "merchant": {
+            "name": "MTS Gold",
+            "legal_name": "MTS Gold Co., Ltd.",
+            "branch": "Head Office",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5944",
+            "category": "Gold & Jewelry"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID961704"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 80000,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-12208113",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Investment",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bumrungrad-699289",
+          "transaction_date": "2025-04-03",
+          "posted_date": "2025-04-03",
+          "description": "Bumrungrad International Hospital",
+          "merchant": {
+            "name": "Bumrungrad International Hospital",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "8062",
+            "category": "Medical Services"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID137603"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 7524.47,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-81110014",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bts-873940",
+          "transaction_date": "2025-04-04",
+          "posted_date": "2025-04-04",
+          "description": "BTS SkyTrain",
+          "merchant": {
+            "name": "BTS SkyTrain",
+            "legal_name": null,
+            "branch": "Asok Station",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4131",
+            "category": "Commuter Transport"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID140222"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 312.5,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-64199470",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-dior-570317",
+          "transaction_date": "2025-04-04",
+          "posted_date": "2025-04-04",
+          "description": "Dior",
+          "merchant": {
+            "name": "Dior",
+            "legal_name": "Christian Dior (Thailand) Ltd.",
+            "branch": "EmQuartier",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5944",
+            "category": "Luxury Goods"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID628097"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 806.95,
+            "vat_thb": 52.79
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-11963047",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Luxury",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ledu-906373",
+          "transaction_date": "2025-04-04",
+          "posted_date": "2025-04-04",
+          "description": "Le Du",
+          "merchant": {
+            "name": "Le Du",
+            "legal_name": "Le Du Co., Ltd.",
+            "branch": "Silom",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5812",
+            "category": "Fine Dining"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID269973"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 640.01,
+            "vat_thb": 41.87
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-60576412",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-7eleven-159514",
+          "transaction_date": "2025-04-05",
+          "posted_date": "2025-04-05",
+          "description": "7-Eleven",
+          "merchant": {
+            "name": "7-Eleven",
+            "legal_name": "CP ALL PCL",
+            "branch": "Sukhumvit Soi 24",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Convenience Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID551318"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 259.62,
+            "vat_thb": 16.98
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": true
+          },
+          "reference": "REF-51822863",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": true,
+            "recurring_group": "OTHER_RECURRING",
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-cafe_amz-519421",
+          "transaction_date": "2025-04-05",
+          "posted_date": "2025-04-05",
+          "description": "Cafe Amazon",
+          "merchant": {
+            "name": "Cafe Amazon",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Office Tower",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID303626"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 193.34,
+            "vat_thb": 12.65
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-17355522",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lotus-770907",
+          "transaction_date": "2025-04-05",
+          "posted_date": "2025-04-05",
+          "description": "Lotus's",
+          "merchant": {
+            "name": "Lotus's",
+            "legal_name": "Ek-Chai Distribution System Co., Ltd.",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID959345"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 2593.97,
+            "vat_thb": 169.7
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-14923640",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-shopee-817167",
+          "transaction_date": "2025-04-05",
+          "posted_date": "2025-04-05",
+          "description": "Shopee Thailand",
+          "merchant": {
+            "name": "Shopee Thailand",
+            "legal_name": "Shopee (Thailand) Co., Ltd.",
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5964",
+            "category": "Online Shopping"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-SHOPEETH"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 5389.79,
+            "vat_thb": 352.6
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-18539356",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-villa-164769",
+          "transaction_date": "2025-04-05",
+          "posted_date": "2025-04-05",
+          "description": "Villa Market",
+          "merchant": {
+            "name": "Villa Market",
+            "legal_name": "Villa Market JP Co., Ltd.",
+            "branch": "Thonglor 15",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID306983"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 1498.67,
+            "vat_thb": 98.04
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-10078124",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-alpine-894014",
+          "transaction_date": "2025-04-06",
+          "posted_date": "2025-04-06",
+          "description": "Alpine Golf Club",
+          "merchant": {
+            "name": "Alpine Golf Club",
+            "legal_name": null,
+            "branch": null,
+            "city": "Pathum Thani",
+            "country": "TH",
+            "mcc": "7992",
+            "category": "Golf Course"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID796968"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 4072.25,
+            "vat_thb": 266.41
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-43510651",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-central-914189",
+          "transaction_date": "2025-04-06",
+          "posted_date": "2025-04-06",
+          "description": "Central Department Store",
+          "merchant": {
+            "name": "Central Department Store",
+            "legal_name": "Central Department Store Co., Ltd.",
+            "branch": "CentralWorld",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5311",
+            "category": "Department Store"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID928005"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 9388.43,
+            "vat_thb": 614.2
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-90148304",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-grab-487421",
+          "transaction_date": "2025-04-06",
+          "posted_date": "2025-04-06",
+          "description": "Grab (Thailand)",
+          "merchant": {
+            "name": "Grab (Thailand)",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-GRAB(THA"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 248.14,
+            "vat_thb": 16.23
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-18540288",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-mts-320195",
+          "transaction_date": "2025-04-07",
+          "posted_date": "2025-04-07",
+          "description": "MTS Gold",
+          "merchant": {
+            "name": "MTS Gold",
+            "legal_name": "MTS Gold Co., Ltd.",
+            "branch": "Head Office",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5944",
+            "category": "Gold & Jewelry"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID348007"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 6970.13,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-26199818",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Investment",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-ptt-696283",
+          "transaction_date": "2025-04-07",
+          "posted_date": "2025-04-07",
+          "description": "PTT Station",
+          "merchant": {
+            "name": "PTT Station",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5541",
+            "category": "Fuel"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID216759"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 2470.42,
+            "vat_thb": 161.62
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-50038938",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-alpine-863549",
+          "transaction_date": "2025-04-08",
+          "posted_date": "2025-04-08",
+          "description": "Alpine Golf Club",
+          "merchant": {
+            "name": "Alpine Golf Club",
+            "legal_name": null,
+            "branch": null,
+            "city": "Pathum Thani",
+            "country": "TH",
+            "mcc": "7992",
+            "category": "Golf Course"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID202134"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 5067.01,
+            "vat_thb": 331.49
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-77128155",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-bts-241440",
+          "transaction_date": "2025-04-08",
+          "posted_date": "2025-04-08",
+          "description": "BTS SkyTrain",
+          "merchant": {
+            "name": "BTS SkyTrain",
+            "legal_name": null,
+            "branch": "Asok Station",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4131",
+            "category": "Commuter Transport"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID190201"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 462.0,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-71698786",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-cafe_amz-418326",
+          "transaction_date": "2025-04-09",
+          "posted_date": "2025-04-09",
+          "description": "Cafe Amazon",
+          "merchant": {
+            "name": "Cafe Amazon",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Office Tower",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless+PIN",
+            "terminal_id": "TID800147"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 78.93,
+            "vat_thb": 5.16
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-56964703",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lv-703660",
+          "transaction_date": "2025-04-09",
+          "posted_date": "2025-04-09",
+          "description": "Louis Vuitton",
+          "merchant": {
+            "name": "Louis Vuitton",
+            "legal_name": "Louis Vuitton (Thailand) Co., Ltd.",
+            "branch": "Iconsiam",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5944",
+            "category": "Luxury Goods"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID303298"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 67619.84,
+            "vat_thb": 4423.73
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-82586806",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Luxury",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-scb_life-114751",
+          "transaction_date": "2025-04-09",
+          "posted_date": "2025-04-09",
+          "description": "SCB Life Insurance",
+          "merchant": {
+            "name": "SCB Life Insurance",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "6300",
+            "category": "Insurance"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom+3DS",
+            "terminal_id": "ECOM-SCBLIFEI"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 3858.82,
+            "vat_thb": 0.0
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-75988430",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": true,
+            "recurring_group": "INSURANCE",
+            "high_level_category": "Insurance",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lineman-605132",
+          "transaction_date": "2025-04-10",
+          "posted_date": "2025-04-10",
+          "description": "LINE MAN",
+          "merchant": {
+            "name": "LINE MAN",
+            "legal_name": null,
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "4121",
+            "category": "Taxi/Limousine"
+          },
+          "pos": {
+            "channel": "in_app",
+            "card_present": false,
+            "entry_mode": "tokenized",
+            "terminal_id": "ECOM-LINEMAN"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 187.51,
+            "vat_thb": 12.27
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-63060078",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Transport",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lotus-149379",
+          "transaction_date": "2025-04-10",
+          "posted_date": "2025-04-10",
+          "description": "Lotus's",
+          "merchant": {
+            "name": "Lotus's",
+            "legal_name": "Ek-Chai Distribution System Co., Ltd.",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID543757"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 1262.64,
+            "vat_thb": 82.6
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-35571401",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-lotus-299243",
+          "transaction_date": "2025-04-10",
+          "posted_date": "2025-04-10",
+          "description": "Lotus's",
+          "merchant": {
+            "name": "Lotus's",
+            "legal_name": "Ek-Chai Distribution System Co., Ltd.",
+            "branch": "Rama 4",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID735050"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 620.45,
+            "vat_thb": 40.59
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-45183128",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-villa-745927",
+          "transaction_date": "2025-04-10",
+          "posted_date": "2025-04-10",
+          "description": "Villa Market",
+          "merchant": {
+            "name": "Villa Market",
+            "legal_name": "Villa Market JP Co., Ltd.",
+            "branch": "Thonglor 15",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5411",
+            "category": "Supermarket"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "chip+PIN",
+            "terminal_id": "TID233019"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 1441.18,
+            "vat_thb": 94.28
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-96642266",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Groceries",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-apple_online-929544",
+          "transaction_date": "2025-04-11",
+          "posted_date": "2025-04-11",
+          "description": "Apple Store Online TH",
+          "merchant": {
+            "name": "Apple Store Online TH",
+            "legal_name": "Apple South Asia (Thailand) Limited",
+            "branch": null,
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5732",
+            "category": "Electronics"
+          },
+          "pos": {
+            "channel": "online",
+            "card_present": false,
+            "entry_mode": "ecom",
+            "terminal_id": "ECOM-APPLESTO"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 2769.8,
+            "vat_thb": 181.2
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-30465459",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Other",
+            "demo_tag": []
+          }
+        },
+        {
+          "transaction_id": "t-cafe_amz-561426",
+          "transaction_date": "2025-04-11",
+          "posted_date": "2025-04-11",
+          "description": "Cafe Amazon",
+          "merchant": {
+            "name": "Cafe Amazon",
+            "legal_name": "PTT Oil and Retail Business PCL",
+            "branch": "Office Tower",
+            "city": "Bangkok",
+            "country": "TH",
+            "mcc": "5814",
+            "category": "Coffee Shop"
+          },
+          "pos": {
+            "channel": "in_store",
+            "card_present": true,
+            "entry_mode": "contactless",
+            "terminal_id": "TID682709"
+          },
+          "amounts": {
+            "currency": "THB",
+            "gross_thb": 152.48,
+            "vat_thb": 9.98
+          },
+          "flags": {
+            "installment_plan_id": null,
+            "recurring": false
+          },
+          "reference": "REF-98032347",
+          "derived": {
+            "month": "2025-04",
+            "is_recurring": false,
+            "recurring_group": null,
+            "high_level_category": "Dining",
+            "demo_tag": []
+          }
+        }
+      ]
+    }
+  ]
+}
